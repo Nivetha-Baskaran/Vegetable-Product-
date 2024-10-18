@@ -1,0 +1,88 @@
+.WholeContainerLogin{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+.login{
+    background: linear-gradient(to right top,white, rgb(127, 78, 91));
+    filter: brightness(70%);
+    background-attachment: fixed;
+    object-fit: cover;
+    background-size: cover;
+}
+.FormContainerLogin{
+    width:30%;
+    min-height: 400px;
+    background: linear-gradient(to right top,white, rgb(127, 78, 91));
+    box-shadow: 0px 0px 15px black;
+    padding: 50px;
+    border-radius: 20px;
+}
+form .text-center{
+    font-size: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: blue;
+}
+.LoginLabel{
+    font-weight: bold;
+    font-size: 40px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: yellow;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+}
+input{
+    padding: 10px;
+    color: blueviolet;
+    font-size: 15px;
+}
+input::placeholder{
+    color: gray;
+    font-weight: bold;
+}
+.BoxLogin{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+}
+.LoginIcon{
+    position: absolute;
+    background-color: white;
+    border:5px solid white;
+    bottom:10%;
+    right:3%;
+    /* z-index: 30; */
+}
+.buttonLogin{
+    color: red;
+    font-weight: bold;
+    margin-top: 10px;
+}
+/*   Responsive Code      */
+/*Tablet View  */
+@media only screen and (min-width:900px) and (max-width:1100px){
+    .FormContainerLogin{
+        width:55%;
+    }
+}
+@media only screen and (min-width:600px) and (max-width:900px){
+    .FormContainerLogin{
+        width:75%;
+    }
+}
+/*Mobile View  */
+@media only screen and (min-width:400px) and (max-width:600px){
+    .FormContainerLogin{
+        width:85%;
+    }
+}
+@media only screen and (min-width:300px) and (max-width:400px){
+    .FormContainerLogin{
+        width:95%;
+    }
+}
