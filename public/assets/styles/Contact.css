@@ -1,0 +1,26 @@
+/* ----  Contact form  ---------*/
+.Contacttext{
+	font-family: gupter!important;
+}
+.Contacttext h2{
+	color: #00ff6a!important;
+}
+.Contacttext span{
+	color: #ff6600!important;
+}
+.Contacttext button{
+	background-color: #ff6600!important;
+}
+.form-control:focus{
+	box-shadow: none!important;
+	border:3px solid #ff6600!important;
+}
+.form-control{
+	border: none!important;
+	border:1px solid  rgb(17, 6, 231)!important;
+}
+
+/* --------------- Footer Page   ---------- */
+.footeremail{
+	border:3px solid #ff6600!important;
+}
